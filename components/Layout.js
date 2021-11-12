@@ -10,7 +10,7 @@ export default function Layout({ children }) {
         <meta property='og:title' content='SaMTEC' key='title' />
       </Head>
       <Navigation />
-      <main className='container mt-3'>{children}</main>
+      <main className='mt-3'>{children}</main>
       <Footer />
     </>
   )

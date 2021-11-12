@@ -1,16 +1,14 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.bg-primary,
+.btn-primary,
+.text-primary {
+  background-color: '#006DB8' !important;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+.text-primary {
+  color: '#006DB8' !important;
 }
-
-* {
-  box-sizing: border-box;
+.card {
+  transition: 0.5s;
+}
+.card:hover {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }

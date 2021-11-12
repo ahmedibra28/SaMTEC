@@ -5,6 +5,7 @@ import path from 'path'
 import matter from 'gray-matter'
 import { sortByDate } from '../utils'
 import IndexHome from '../components/home/IndexHome'
+import Contact from '../components/home/Contact'
 
 function Home({ posts }) {
   return (
@@ -18,6 +19,7 @@ function Home({ posts }) {
         />
       </Head>
       <IndexHome />
+      <Contact />
       {/* <div className='container'>
         <div className='row'>
           <Posts posts={posts} />

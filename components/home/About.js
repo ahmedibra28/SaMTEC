@@ -1,5 +1,5 @@
 import React from 'react'
-import about_image from '../../images/about-image.jpg'
+import about_image from '../../public/images/about-image.jpg'
 import Image from 'next/image'
 import {
   FaBullhorn,

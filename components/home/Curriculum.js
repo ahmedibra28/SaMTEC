@@ -21,7 +21,7 @@ const Curriculum = () => {
       <div className='text-center mt-5'>
         <Link href='/curriculum'>
           <a target='_blank' className='btn btn-primary py-2 px-5'>
-            2020 Syllabus and Regulations
+            Learn More About 2020 Syllabus and Regulations
           </a>
         </Link>
       </div>

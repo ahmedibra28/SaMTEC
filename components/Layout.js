@@ -1,6 +1,7 @@
 import Navigation from './Navigation'
 import Head from 'next/head'
 import Footer from './Footer'
+import Contact from './home/Contact'
 
 export default function Layout({ children }) {
   return (
@@ -11,6 +12,7 @@ export default function Layout({ children }) {
       </Head>
       <Navigation />
       <main className='mt-3'>{children}</main>
+      <Contact />
       <Footer />
     </>
   )

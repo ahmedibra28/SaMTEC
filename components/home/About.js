@@ -1,5 +1,5 @@
 import React from 'react'
-import about_image from '../../public/images/about-image.jpg'
+import about from '../../public/images/about/about.svg'
 import Image from 'next/image'
 import {
   FaBullhorn,
@@ -136,7 +136,7 @@ const About = () => {
         </div>
         <div className='col-md-6 col-12 my-auto'>
           <Image
-            src={about_image}
+            src={about}
             width={500}
             height={350}
             className='img-fluid rounded-3'

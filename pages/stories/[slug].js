@@ -8,7 +8,7 @@ import path from 'path'
 import matter from 'gray-matter'
 import marked from 'marked'
 
-const PostDetails = ({ frontmatter, content }) => {
+const ImpactStoryDetails = ({ frontmatter, content }) => {
   return (
     <div className='container'>
       <>
@@ -38,16 +38,15 @@ const PostDetails = ({ frontmatter, content }) => {
                 Original published at {frontmatter.author}
               </label>{' '}
               {frontmatter && frontmatter.image && (
-                <div className='image-wrapper my-3'>
-                  <Image
-                    alt={frontmatter.image}
-                    src={frontmatter.image}
-                    layout='responsive'
-                    width='100%'
-                    height='50px'
-                    objectFit='cover'
-                  />
-                </div>
+                <Image
+                  alt={frontmatter.image}
+                  src={frontmatter.image}
+                  layout='responsive'
+                  width='100%'
+                  height='50px'
+                  objectFit='cover'
+                  className='py-3'
+                />
               )}
               <div dangerouslySetInnerHTML={{ __html: marked(content) }} />
             </div>
@@ -58,10 +57,10 @@ const PostDetails = ({ frontmatter, content }) => {
   )
 }
 
-export default PostDetails
+export default ImpactStoryDetails
 
 export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join('posts'))
+  const files = fs.readdirSync(path.join('stories'))
 
   const paths = files.map((filename) => ({
     params: {
@@ -74,7 +73,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params: { slug } }) {
   const markdownWithMeta = fs.readFileSync(
-    path.join('posts', slug + '.mdx'),
+    path.join('stories', slug + '.mdx'),
     'utf-8'
   )
 

@@ -1,6 +1,9 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['dev.to', 'res.cloudinary.com', 'cloudinary.com'],
+    domains: [
+      'samtec-dims.s3.us-west-002.backblazeb2.com',
+      'res.cloudinary.com',
+    ],
   },
 }

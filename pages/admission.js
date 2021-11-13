@@ -1,7 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 import { FaCertificate, FaGraduationCap, FaPencilRuler } from 'react-icons/fa'
-import admissionImage from '../public/images/admission/admission.svg'
 
 const admission = () => {
   const craft = () => (
@@ -94,9 +93,9 @@ const admission = () => {
 
         <div className='col-md-6 col-12 my-auto'>
           <img
-            src={admissionImage}
-            width={500}
-            height={350}
+            src='/images/admission/admission.svg'
+            // width={500}
+            // height={350}
             className='img-fluid rounded-3'
             alt='about'
           />

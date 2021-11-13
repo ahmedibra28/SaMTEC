@@ -43,10 +43,7 @@ const PostDetails = ({ frontmatter, content }) => {
                   <img
                     alt={frontmatter.image}
                     src={frontmatter.image}
-                    layout='responsive'
-                    width='100%'
-                    height='50px'
-                    objectFit='cover'
+                    className='img-fluid w-100'
                   />
                 </div>
               )}

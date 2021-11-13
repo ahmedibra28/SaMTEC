@@ -1,5 +1,4 @@
 import React from 'react'
-import about from '../../public/images/about/about.svg'
 import {
   FaBullhorn,
   FaBullseye,
@@ -51,7 +50,7 @@ const About = () => {
           specifically:
         </p>
       </div>
-      <p className='card-body'>
+      <div className='card-body'>
         <ul className='list-group list-group-flush'>
           <li className='list-group-item text-primary'>
             <FaCheckCircle className='mb-1' /> Of high integrity, transparency,
@@ -74,7 +73,7 @@ const About = () => {
             co-existence
           </li>
         </ul>
-      </p>
+      </div>
     </div>
   )
 
@@ -84,7 +83,7 @@ const About = () => {
       <div className='card-body text-center'>
         <h5 className='card-title fw-bold'>STRATEGIC FOCUS AREAS</h5>
       </div>
-      <p className='card-body'>
+      <div className='card-body'>
         <ul className='list-group list-group-flush'>
           <li className='list-group-item text-primary'>
             <FaCheckCircle className='mb-1' /> Access to academic and vocational
@@ -103,7 +102,7 @@ const About = () => {
             financing, and sustainability
           </li>
         </ul>
-      </p>
+      </div>
     </div>
   )
 
@@ -135,9 +134,10 @@ const About = () => {
         </div>
         <div className='col-md-6 col-12 my-auto'>
           <img
-            src={about}
-            width={500}
-            height={350}
+            // src={require('/images/about/about.svg')}
+            src='/images/about/about.svg'
+            // width={500}
+            // height={350}
             className='img-fluid rounded-3'
             alt='about'
           />

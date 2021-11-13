@@ -1,7 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 import moment from 'moment'
-
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
@@ -42,11 +41,7 @@ const ImpactStoryDetails = ({ frontmatter, content }) => {
                 <img
                   alt={frontmatter.image}
                   src={frontmatter.image}
-                  layout='responsive'
-                  width='100%'
-                  height='50px'
-                  objectFit='cover'
-                  className='py-3'
+                  className='py-3 img-fluid'
                 />
               )}
               <div dangerouslySetInnerHTML={{ __html: marked(content) }} />

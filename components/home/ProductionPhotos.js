@@ -1,26 +1,18 @@
-import image1 from '../../public/images/production_photos/1.jpg'
-import image2 from '../../public/images/production_photos/2.jpg'
-import image3 from '../../public/images/production_photos/3.jpg'
-import image4 from '../../public/images/production_photos/4.jpg'
-import image5 from '../../public/images/production_photos/5.jpg'
-import image6 from '../../public/images/production_photos/6.jpg'
-import image7 from '../../public/images/production_photos/7.jpg'
-import image8 from '../../public/images/production_photos/8.jpg'
-import image9 from '../../public/images/production_photos/9.jpg'
+// import Image from 'next/image'
 
 import React from 'react'
 
 const ProductionPhotos = () => {
   const images = [
-    image1,
-    image2,
-    image3,
-    image4,
-    image5,
-    image6,
-    image7,
-    image8,
-    image9,
+    '/images/production_photos/1.jpg',
+    '/images/production_photos/2.jpg',
+    '/images/production_photos/3.jpg',
+    '/images/production_photos/4.jpg',
+    '/images/production_photos/5.jpg',
+    '/images/production_photos/6.jpg',
+    '/images/production_photos/7.jpg',
+    '/images/production_photos/8.jpg',
+    '/images/production_photos/9.jpg',
   ]
   return (
     <div className='row g-3'>
@@ -28,8 +20,8 @@ const ProductionPhotos = () => {
         <div key={index} className='col-lg-3 col-md-4 col-6'>
           <img
             src={image}
-            width={280}
-            height={200}
+            // width={280}
+            // height={200}
             alt='production-photos'
             className='img-fluid'
           />

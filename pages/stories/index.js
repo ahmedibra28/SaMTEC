@@ -24,20 +24,17 @@ const impact = ({ posts }) => {
             <div key={post.slug} className='col-md-4 col-12'>
               <div className='card border-0 mb-2 shadow-lg'>
                 {post.frontmatter && post.frontmatter.image && (
-                  <div>
-                    <Link href={`stories/${post.slug}`}>
+                  <>
+                    <Link href={`/stories/${post.slug}`}>
                       <a>
                         <img
                           alt={post.frontmatter.image}
                           src={post.frontmatter.image}
-                          layout='responsive'
-                          width='100%'
-                          height='50px'
-                          objectFit='cover'
+                          className='card-img-top img-fluid'
                         />
                       </a>
                     </Link>
-                  </div>
+                  </>
                 )}
 
                 <div className='card-body fs-6'>
@@ -48,7 +45,7 @@ const impact = ({ posts }) => {
                   <label className='text-muted fst-italic fw-light'>
                     {moment(post.frontmatter.createdAt).format('MMM Do')}
                   </label>
-                  <Link href={`stories/${post.slug}`}>
+                  <Link href={`/stories/${post.slug}`}>
                     <a className='text-decoration-none text-dark'>
                       <h5 className='card-title text-primary'>
                         {post.frontmatter.title}
@@ -56,7 +53,7 @@ const impact = ({ posts }) => {
                     </a>
                   </Link>
                   <p className='card-text'>
-                    <p>{post.frontmatter.caption}</p>
+                    {post.frontmatter.caption}
                     {post &&
                       post.frontmatter &&
                       post.frontmatter.hashTag.map((hash) => (

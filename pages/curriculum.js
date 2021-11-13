@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import Head from 'next/head'
 import image1 from '../public/images/curriculum/1.jpg'
 import { FaCloudDownloadAlt } from 'react-icons/fa'
@@ -53,7 +52,7 @@ const curriculum = () => {
             Syllabus and Regulations
           </a>
         </div>
-        <Image
+        <img
           src={image1}
           layout='responsive'
           alt='SaMTEC 2020 Syllabus and Regulations'

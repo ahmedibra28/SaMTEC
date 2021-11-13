@@ -1,6 +1,5 @@
 import React from 'react'
 import about from '../../public/images/about/about.svg'
-import Image from 'next/image'
 import {
   FaBullhorn,
   FaBullseye,
@@ -135,7 +134,7 @@ const About = () => {
           </p>
         </div>
         <div className='col-md-6 col-12 my-auto'>
-          <Image
+          <img
             src={about}
             width={500}
             height={350}

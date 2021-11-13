@@ -9,7 +9,6 @@ import image8 from '../../public/images/production_photos/8.jpg'
 import image9 from '../../public/images/production_photos/9.jpg'
 
 import React from 'react'
-import Image from 'next/image'
 
 const ProductionPhotos = () => {
   const images = [
@@ -27,7 +26,7 @@ const ProductionPhotos = () => {
     <div className='row g-3'>
       {images.map((image, index) => (
         <div key={index} className='col-lg-3 col-md-4 col-6'>
-          <Image
+          <img
             src={image}
             width={280}
             height={200}

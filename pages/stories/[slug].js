@@ -1,6 +1,5 @@
 import React from 'react'
 import Head from 'next/head'
-import Image from 'next/image'
 import moment from 'moment'
 
 import fs from 'fs'
@@ -40,7 +39,7 @@ const ImpactStoryDetails = ({ frontmatter, content }) => {
                 Original published at {frontmatter.author}
               </label>{' '}
               {frontmatter && frontmatter.image && (
-                <Image
+                <img
                   alt={frontmatter.image}
                   src={frontmatter.image}
                   layout='responsive'

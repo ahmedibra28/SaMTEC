@@ -4,7 +4,6 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import { sortByDate } from '../../utils'
-import Image from 'next/image'
 import Link from 'next/link'
 import moment from 'moment'
 
@@ -28,7 +27,7 @@ const impact = ({ posts }) => {
                   <div>
                     <Link href={`stories/${post.slug}`}>
                       <a>
-                        <Image
+                        <img
                           alt={post.frontmatter.image}
                           src={post.frontmatter.image}
                           layout='responsive'

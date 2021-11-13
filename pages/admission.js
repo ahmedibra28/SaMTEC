@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import Head from 'next/head'
 import { FaCertificate, FaGraduationCap, FaPencilRuler } from 'react-icons/fa'
 import admissionImage from '../public/images/admission/admission.svg'
@@ -94,7 +93,7 @@ const admission = () => {
         </div>
 
         <div className='col-md-6 col-12 my-auto'>
-          <Image
+          <img
             src={admissionImage}
             width={500}
             height={350}

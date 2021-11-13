@@ -1,6 +1,5 @@
 import React from 'react'
 import Head from 'next/head'
-import Image from 'next/image'
 import moment from 'moment'
 
 import fs from 'fs'
@@ -41,7 +40,7 @@ const PostDetails = ({ frontmatter, content }) => {
               </label>{' '}
               {frontmatter && frontmatter.image && (
                 <div className='image-wrapper my-3'>
-                  <Image
+                  <img
                     alt={frontmatter.image}
                     src={frontmatter.image}
                     layout='responsive'

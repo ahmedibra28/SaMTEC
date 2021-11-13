@@ -16,7 +16,7 @@ const blog = ({ posts }) => {
           <title>Blog News</title>
           <meta property='og:title' content='Blog News' key='title' />
         </Head>
-        <h3 className='text-center display-6'>Blog News</h3>
+        <h3 className='text-center display-6 '>Blog News</h3>
       </div>
 
       <div className='row'>
@@ -51,7 +51,9 @@ const blog = ({ posts }) => {
                   </label>
                   <Link href={`blog/${post.slug}`}>
                     <a className='text-decoration-none text-dark'>
-                      <h5 className='card-title'>{post.frontmatter.title}</h5>
+                      <h5 className='card-title text-primary'>
+                        {post.frontmatter.title}
+                      </h5>
                     </a>
                   </Link>
                   <p className='card-text'>

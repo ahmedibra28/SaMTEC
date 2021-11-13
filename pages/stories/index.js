@@ -51,7 +51,9 @@ const impact = ({ posts }) => {
                   </label>
                   <Link href={`stories/${post.slug}`}>
                     <a className='text-decoration-none text-dark'>
-                      <h5 className='card-title'>{post.frontmatter.title}</h5>
+                      <h5 className='card-title text-primary'>
+                        {post.frontmatter.title}
+                      </h5>
                     </a>
                   </Link>
                   <p className='card-text'>

@@ -13,7 +13,7 @@ const Curriculum = () => {
         The College started offering 3 courses at its early days, and gradually
         increased to the current 19 different courses (Table below).
         <br />
-        In addition to SaMTEC's main campus in Beld-Hawa, Agriculture Training
+        In addition to SaMTEC s main campus in Beld-Hawa, Agriculture Training
         Centre (ATC) campus in Luuq offers specializes agribusiness and
         agriculture extension vocational training courses.
       </p>

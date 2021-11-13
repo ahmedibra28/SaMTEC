@@ -6,7 +6,7 @@ const navItems = [
   { _id: 2, name: 'Curriculum', path: '/#curriculum' },
   { _id: 3, name: 'Agribusiness', path: '/#agribusiness' },
   { _id: 4, name: 'Admissions', path: '/admission' },
-  { _id: 5, name: 'Courses', path: '/#courses' },
+  { _id: 5, name: 'Courses', path: '/courses' },
   { _id: 6, name: 'Impact', path: '/stories' },
   { _id: 8, name: 'Blog', path: '/blog' },
   { _id: 7, name: 'Contact Us', path: '/#contact' },

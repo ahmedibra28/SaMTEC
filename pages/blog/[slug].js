@@ -19,7 +19,9 @@ const PostDetails = ({ frontmatter, content }) => {
         <div className='row'>
           <div className='col-md-9 col-12 mx-auto'>
             <div className='card-body'>
-              <h5 className='card-title fs-1 fw-bold'>{frontmatter.title}</h5>
+              <h5 className='card-title fs-1 fw-bold text-primary'>
+                {frontmatter.title}
+              </h5>
               <p className='card-text'>
                 {frontmatter.hashTag.map((hash) => (
                   <button

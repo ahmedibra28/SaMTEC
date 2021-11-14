@@ -32,7 +32,7 @@ const PostDetails = ({ frontmatter, content }) => {
                 ))}
               </p>
               <label className='text-muted fst-italic fw-light'>
-                Posted on {moment(frontmatter.createdAt).format('MMM Do')}
+                Posted on {moment(frontmatter.createdAt).format('MMM Do YY')}
               </label>{' '}
               -{' '}
               <label className='text-muted fst-italic fw-light'>

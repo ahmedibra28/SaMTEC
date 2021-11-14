@@ -134,10 +134,7 @@ const About = () => {
         </div>
         <div className='col-md-6 col-12 my-auto'>
           <img
-            // src={require('/images/about/about.svg')}
             src='/images/about/about.svg'
-            // width={500}
-            // height={350}
             className='img-fluid rounded-3'
             alt='about'
           />

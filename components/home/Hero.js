@@ -3,7 +3,15 @@ import Link from 'next/link'
 
 const Hero = () => {
   return (
-    <div className='container my-5 py-5 text-primary'>
+    <div className='container mb-5 mt-2 pb-5 text-primary'>
+      <div className='text-center'>
+        <img
+          src='/images/logo.png'
+          width='100'
+          alt='logo'
+          className='img-fluid'
+        />
+      </div>
       <h1 className='text-center display-1 fw-bold'>
         Sayid Mohamed Technical Education College
       </h1>{' '}

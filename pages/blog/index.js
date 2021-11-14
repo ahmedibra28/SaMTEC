@@ -43,7 +43,7 @@ const blog = ({ posts }) => {
                   </label>{' '}
                   -{' '}
                   <label className='text-muted fst-italic fw-light'>
-                    {moment(post.frontmatter.createdAt).format('MMM Do')}
+                    {moment(post.frontmatter.createdAt).format('MMM Do YY')}
                   </label>
                   <Link href={`/blog/${post.slug}`}>
                     <a className='text-decoration-none text-dark'>
@@ -54,6 +54,8 @@ const blog = ({ posts }) => {
                   </Link>
                   <p className='card-text'>
                     {post.frontmatter.caption}
+                    <br />
+
                     {post &&
                       post.frontmatter &&
                       post.frontmatter.hashTag.map((hash) => (

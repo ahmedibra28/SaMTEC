@@ -14,7 +14,7 @@ const navItems = [
 
 const Navigation = () => {
   return (
-    <nav className='navbar navbar-expand-md navbar-dark bg-primary'>
+    <nav className='navbar navbar-expand-md navbar-dark bg-primary sticky-top'>
       <div className='container'>
         <Link href='/'>
           <a className='navbar-brand'>SaMTEC</a>

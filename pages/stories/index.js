@@ -43,7 +43,7 @@ const impact = ({ posts }) => {
                   </label>{' '}
                   -{' '}
                   <label className='text-muted fst-italic fw-light'>
-                    {moment(post.frontmatter.createdAt).format('MMM Do')}
+                    {moment(post.frontmatter.createdAt).format('MMM Do YY')}
                   </label>
                   <Link href={`/stories/${post.slug}`}>
                     <a className='text-decoration-none text-dark'>
@@ -54,6 +54,8 @@ const impact = ({ posts }) => {
                   </Link>
                   <p className='card-text'>
                     {post.frontmatter.caption}
+                    <br />
+
                     {post &&
                       post.frontmatter &&
                       post.frontmatter.hashTag.map((hash) => (

@@ -10,6 +10,7 @@ const navItems = [
   { _id: 6, name: 'Impact', path: '/stories' },
   { _id: 8, name: 'Blog', path: '/blog' },
   { _id: 7, name: 'Contact Us', path: '/#contact' },
+  { _id: 9, name: 'Login', path: 'https://dims.samtec.so' },
 ]
 
 const Navigation = () => {

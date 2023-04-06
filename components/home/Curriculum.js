@@ -5,7 +5,7 @@ import ProductionPhotos from './ProductionPhotos'
 
 const Curriculum = () => {
   return (
-    <div id='curriculum' className='container text-primary py-5 my-5'>
+    <div id='curriculum' className='container py-5 my-5'>
       <h3 className='text-center display-6'>
         Curriculum / Syllabus and Teaching Guides
       </h3>
@@ -78,18 +78,18 @@ const Curriculum = () => {
             </p>
             <p>The Business Development Unit has the following functions:</p>
             <ul className='list-group list-group-flush'>
-              <li className='list-group-item text-primary'>
+              <li className='list-group-item'>
                 <FaCheckCircle className='mb-1' /> The Unit facilitates business
                 consultation forum that promotes entrepreneurial skills and
                 holds an annual conference, during these forums specific
                 trainings are offered to former graduates.
               </li>
-              <li className='list-group-item text-primary'>
+              <li className='list-group-item'>
                 <FaCheckCircle className='mb-1' /> The unit has a fully
                 equipped, separate office which provides business support,
                 internship, and mentorship services.
               </li>
-              <li className='list-group-item text-primary'>
+              <li className='list-group-item'>
                 <FaCheckCircle className='mb-1' /> The unit enables and carries
                 out assessments and evaluations to gauge the success rate of
                 graduates.
@@ -111,22 +111,22 @@ const Curriculum = () => {
             </p>
             <p>Production units at work are shown in the photos below.</p>
             <ul className='list-group list-group-flush'>
-              <li className='list-group-item text-primary'>
+              <li className='list-group-item'>
                 <FaCheckCircle className='mb-1' /> Carpentry section produces a
                 presentable output of well designed and modernized furniture of
                 all kinds
               </li>
-              <li className='list-group-item text-primary'>
+              <li className='list-group-item'>
                 <FaCheckCircle className='mb-1' /> Clothing & Textile section
                 produces and makes fashions, school uniforms for the local
                 markets
               </li>
-              <li className='list-group-item text-primary'>
+              <li className='list-group-item'>
                 <FaCheckCircle className='mb-1' /> Welding and fabrication
                 section produces metallic materials like gates, beds, and
                 household utensils and cutleries.
               </li>
-              <li className='list-group-item text-primary'>
+              <li className='list-group-item'>
                 <FaCheckCircle className='mb-1' /> Business and production units
                 also act as internship and industrial learning practical hub
                 which provides incentives for students

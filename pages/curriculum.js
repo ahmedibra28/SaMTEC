@@ -4,7 +4,7 @@ import { FaCloudDownloadAlt } from 'react-icons/fa'
 
 const curriculum = () => {
   return (
-    <div className='container text-primary mb-5 mt-2'>
+    <div className='container mb-5 mt-2'>
       <Head>
         <title>SaMTEC 2020 Syllabus and Regulations</title>
         <meta

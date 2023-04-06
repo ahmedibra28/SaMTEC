@@ -5,7 +5,7 @@ import { FaCertificate, FaGraduationCap, FaPencilRuler } from 'react-icons/fa'
 const admission = () => {
   const craft = () => (
     <div className='card border-0 shadow-sm p-3'>
-      <FaPencilRuler className='card-img-top fs-1' />
+      <FaPencilRuler className='card-img-top text-primary fs-1' />
       <div className='card-body text-center'>
         <h5 className='card-title fw-bold'>CRAFT COURSES</h5>
         <p className='card-text'>
@@ -19,7 +19,7 @@ const admission = () => {
   )
   const certificate = () => (
     <div className='card border-0 shadow-sm p-3'>
-      <FaCertificate className='card-img-top fs-1' />
+      <FaCertificate className='card-img-top text-primary fs-1' />
       <div className='card-body text-center'>
         <h5 className='card-title fw-bold'>CERTIFICATE COURSES</h5>
         <p className='card-text'>
@@ -36,7 +36,7 @@ const admission = () => {
 
   const diploma = () => (
     <div className='card border-0 shadow-sm p-3'>
-      <FaCertificate className='card-img-top fs-1' />
+      <FaCertificate className='card-img-top text-primary fs-1' />
       <div className='card-body text-center'>
         <h5 className='card-title fw-bold'>DIPLOMA COURSES</h5>
         <p className='card-text'>
@@ -54,7 +54,7 @@ const admission = () => {
 
   const admission = () => (
     <div className='card border-0 shadow-sm p-3'>
-      <FaGraduationCap className='card-img-top fs-1' />
+      <FaGraduationCap className='card-img-top text-primary fs-1' />
       <div className='card-body text-center'>
         <h5 className='card-title fw-bold'>ADMISSION COURSES</h5>
         <p className='card-text'>View admission requirements on your right</p>
@@ -63,7 +63,7 @@ const admission = () => {
   )
 
   return (
-    <div className='container text-primary mb-5 mt-2'>
+    <div className='container  mb-5 mt-2'>
       <Head>
         <title>Admission</title>
         <meta property='og:title' content='Admission' key='title' />

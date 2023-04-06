@@ -15,20 +15,23 @@ const Contact = () => {
       <h5 className='text-uppercase fw-bold'>Head Office</h5>
       <address>
         <ul className='list-group list-group-flush'>
-          <li className='list-group-item text-primary'>
+          <li className='list-group-item'>
             <FaMapMarkerAlt className='mb-1' /> Market Street, Belethawo Town,
             Gedo Region, Jubbaland State, Somalia.
           </li>
-          <li className='list-group-item text-primary'>
+          <li className='list-group-item'>
             <FaPhoneAlt className='mb-1' />
             <Link href='tel:+25214361208'>
-              <a className='text-decoration-none'> +252 (0) 436 1208</a>
+              <a className='text-decoration-none text-dark'>
+                {' '}
+                +252 (0) 436 1208
+              </a>
             </Link>
           </li>
-          <li className='list-group-item text-primary'>
+          <li className='list-group-item'>
             <FaEnvelope className='mb-1' />
             <Link href='mailto:info@samtec.so'>
-              <a className='text-decoration-none'> info@samtec.so</a>
+              <a className='text-decoration-none text-dark'> info@samtec.so</a>
             </Link>
           </li>
         </ul>
@@ -41,19 +44,22 @@ const Contact = () => {
       <h5 className='text-uppercase fw-bold'>Luuq Office</h5>
       <address>
         <ul className='list-group list-group-flush'>
-          <li className='list-group-item text-primary'>
+          <li className='list-group-item text-dark'>
             <FaMapMarkerAlt className='mb-1' /> SaMTEC/ACT Center, Luuq district
           </li>
-          <li className='list-group-item text-primary'>
+          <li className='list-group-item text-dark'>
             <FaPhoneAlt className='mb-1' />
             <Link href='tel:+25214361208'>
-              <a className='text-decoration-none'> +252 (0) 436 1208</a>
+              <a className='text-decoration-none text-dark'>
+                {' '}
+                +252 (0) 436 1208
+              </a>
             </Link>
           </li>
-          <li className='list-group-item text-primary'>
+          <li className='list-group-item text-dark'>
             <FaEnvelope className='mb-1' />
             <Link href='mailto:info@samtec.so'>
-              <a className='text-decoration-none'> info@samtec.so</a>
+              <a className='text-decoration-none text-dark'> info@samtec.so</a>
             </Link>
           </li>
         </ul>
@@ -66,20 +72,23 @@ const Contact = () => {
       <h5 className='text-uppercase fw-bold'>Mogadishu Office</h5>
       <address>
         <ul className='list-group list-group-flush'>
-          <li className='list-group-item text-primary'>
+          <li className='list-group-item text-dark'>
             <FaMapMarkerAlt className='mb-1' /> Apartment 7, Third Floor, Mumin
             House, Madina Gate Street, Mogadishu, Somalia
           </li>
-          <li className='list-group-item text-primary'>
+          <li className='list-group-item text-dark'>
             <FaPhoneAlt className='mb-1' />
             <Link href='tel:+2521858352'>
-              <a className='text-decoration-none'> +252 (1) 85 8352</a>
+              <a className='text-decoration-none text-dark'>
+                {' '}
+                +252 (1) 85 8352
+              </a>
             </Link>
           </li>
-          <li className='list-group-item text-primary'>
+          <li className='list-group-item text-dark'>
             <FaEnvelope className='mb-1' />
             <Link href='mailto:info@cerid.so'>
-              <a className='text-decoration-none'> info@cerid.so</a>
+              <a className='text-decoration-none text-dark'> info@cerid.so</a>
             </Link>
           </li>
         </ul>
@@ -119,8 +128,10 @@ const Contact = () => {
     </>
   )
   return (
-    <div id='contact' className='container text-primary py-5 my-5'>
-      <h1 className='text-center display-3 fw-bold'>Get In Touch</h1>
+    <div id='contact' className='container text-dark py-5 my-5'>
+      <h1 className='text-center display-3 fw-bold text-primary'>
+        Get In Touch
+      </h1>
       <div className='row mt-4'>
         <div className='col-md-4 col-12'>{headOffice()}</div>
         <div className='col-md-4 col-12'>{luuqOffice()}</div>

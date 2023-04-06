@@ -75,14 +75,14 @@ const courses = () => {
             areas:
           </p>
           <ul className='list-group list-group-flush'>
-            <li className='list-group-item text-primary'>
+            <li className='list-group-item '>
               <FaCheckCircle className='mb-1' /> Carpentry, Woodwork & Joinery
             </li>
-            <li className='list-group-item text-primary'>
+            <li className='list-group-item '>
               <FaCheckCircle className='mb-1' /> Masonry Construction &
               Brickwork Welding
             </li>
-            <li className='list-group-item text-primary'>
+            <li className='list-group-item '>
               <FaCheckCircle className='mb-1' /> Metalwork & Fabrication
             </li>
           </ul>
@@ -98,11 +98,11 @@ const courses = () => {
             diploma courses in:
           </p>
           <ul className='list-group list-group-flush'>
-            <li className='list-group-item text-primary'>
+            <li className='list-group-item '>
               <FaCheckCircle className='mb-1' /> Automobile, Mechanic &
               Maintenance.
             </li>
-            <li className='list-group-item text-primary'>
+            <li className='list-group-item '>
               <FaCheckCircle className='mb-1' /> Electrical Installations &
               Wiring
             </li>
@@ -121,11 +121,11 @@ const courses = () => {
             following courses:
           </p>
           <ul className='list-group list-group-flush'>
-            <li className='list-group-item text-primary'>
+            <li className='list-group-item '>
               <FaCheckCircle className='mb-1' /> Automobile, Mechanic &
               Maintenance.
             </li>
-            <li className='list-group-item text-primary'>
+            <li className='list-group-item '>
               <FaCheckCircle className='mb-1' /> Electrical Installations &
               Wiring
             </li>
@@ -145,13 +145,13 @@ const courses = () => {
             The department offers the following courses:
           </p>
           <ul className='list-group list-group-flush'>
-            <li className='list-group-item text-primary'>
+            <li className='list-group-item '>
               <FaCheckCircle className='mb-1' /> Computer Packages
             </li>
-            <li className='list-group-item text-primary'>
+            <li className='list-group-item '>
               <FaCheckCircle className='mb-1' /> Software Engineering
             </li>
-            <li className='list-group-item text-primary'>
+            <li className='list-group-item '>
               <FaCheckCircle className='mb-1' /> Networking
             </li>
           </ul>
@@ -179,11 +179,11 @@ const courses = () => {
           <>
             <p>The topics and areas of specialization covered include: </p>
             <ul className='list-group list-group-flush'>
-              <li className='list-group-item text-primary'>
+              <li className='list-group-item '>
                 <FaCheckCircle className='mb-1' /> Automotive mechanics and
                 electrical work,
               </li>
-              <li className='list-group-item text-primary'>
+              <li className='list-group-item '>
                 <FaCheckCircle className='mb-1' /> Body re-sprays, bodywork and
                 tyre fitting
               </li>
@@ -316,11 +316,11 @@ const courses = () => {
           <>
             <p>The topics and areas of specialization covered include:</p>
             <ul className='list-group list-group-flush'>
-              <li className='list-group-item text-primary'>
+              <li className='list-group-item '>
                 <FaCheckCircle className='mb-1' /> Automotive mechanics and
                 electrical work,
               </li>
-              <li className='list-group-item text-primary'>
+              <li className='list-group-item '>
                 <FaCheckCircle className='mb-1' /> Body re-sprays, bodywork and
                 tyre fitting
               </li>
@@ -374,21 +374,21 @@ const courses = () => {
               Other elements include:
             </p>
             <ul className='list-group list-group-flush'>
-              <li className='list-group-item text-primary'>
+              <li className='list-group-item '>
                 <FaCheckCircle className='mb-1' /> Stitch various types of
                 garments for children and adults.
               </li>
-              <li className='list-group-item text-primary'>
+              <li className='list-group-item '>
                 <FaCheckCircle className='mb-1' /> Prepare patterns of garments
                 as per requirement
               </li>
 
-              <li className='list-group-item text-primary'>
+              <li className='list-group-item '>
                 <FaCheckCircle className='mb-1' /> Manage the production of
                 different types of garments on the shop floor
               </li>
 
-              <li className='list-group-item text-primary'>
+              <li className='list-group-item '>
                 <FaCheckCircle className='mb-1' /> Set up an entrepreneurial
                 unit.
               </li>
@@ -620,7 +620,7 @@ const courses = () => {
     </>
   )
   return (
-    <div className='container text-primary mb-5 mt-2'>
+    <div className='container  mb-5 mt-2'>
       <Head>
         <title>Courses</title>
         <meta property='og:title' content='Courses' key='title' />

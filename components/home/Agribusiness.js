@@ -2,8 +2,8 @@ import React from 'react'
 
 const Agribusiness = () => {
   return (
-    <div id='agribusiness' className='container text-primary py-5 my-5'>
-      <h3 className='text-center display-6'>
+    <div id='agribusiness' className='container py-5 my-5'>
+      <h3 className='text-center display-6 text-primary'>
         Agribusiness Entrepreneurship Training
       </h3>
       <p className='text-center'>

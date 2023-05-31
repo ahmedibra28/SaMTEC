@@ -12,11 +12,11 @@ const Hero = () => {
           className='img-fluid'
         />
       </div>
-      <h1 className='text-center display-1 fw-bold text-primary'>
-        Sayid Mohamed Technical Education College
-      </h1>{' '}
+      <h1 className='text-center display-1 fw-bold text-primary'>SaMTEC</h1>{' '}
       <br />
-      <h2 className='text-center fw-light'>SaMTEC</h2>
+      <h2 className='text-center fw-light'>
+        Sayid Mohamed Technical Education College
+      </h2>
       <p className='text-center '>
         is the only vocational education center in{' '}
         <span className='fw-bold'> Gedo region </span> and <br /> one of the

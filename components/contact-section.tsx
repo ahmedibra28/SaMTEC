@@ -8,6 +8,28 @@ import Link from 'next/link'
 import React from 'react'
 
 export default function Contact() {
+  const addresses = [
+    {
+      office: 'HEAD OFFICE',
+      address:
+        'Market Street, Belethawo Town, Gedo Region, Jubbaland State, Somalia.',
+      phone: '+252 (0) 436 1208',
+      email: 'info@samtec.so',
+    },
+    {
+      office: 'LUUQ OFFICE',
+      address: 'SaMTEC/ACT Center, Luuq district',
+      phone: '+252 (0) 436 1208',
+      email: 'info@samtec.so',
+    },
+    {
+      office: 'MOGADISHU OFFICE',
+      address:
+        'Apartment 7, Third Floor, Mumin House, Madina Gate Street, Mogadishu, Somalia',
+      phone: '+252 (1) 85 8352',
+      email: 'info@cerid.so',
+    },
+  ]
   return (
     <div className='bg-brand text-white'>
       <section className=' py-12 md:py-24 lg:py-32' id='contact-us'>
@@ -24,7 +46,8 @@ export default function Contact() {
             </div>
             <div className='flex items-center gap-4'>
               <Link
-                href='#'
+                href='https://facebook.com/samtec2005'
+                target='_blank'
                 className='text-gray-300 hover:text-foreground'
                 prefetch={false}
               >
@@ -32,7 +55,8 @@ export default function Contact() {
                 <span className='sr-only'>Facebook</span>
               </Link>
               <Link
-                href='#'
+                href='https://twitter.com/samtec2005'
+                target='_blank'
                 className='text-gray-300 hover:text-foreground'
                 prefetch={false}
               >
@@ -40,76 +64,31 @@ export default function Contact() {
                 <span className='sr-only'>Twitter</span>
               </Link>
               <Link
-                href='#'
+                href='https://instagram.com/samtec2005'
+                target='_blank'
                 className='text-gray-300 hover:text-foreground'
                 prefetch={false}
               >
                 <InstagramIcon className='h-6 w-6' />
                 <span className='sr-only'>Instagram</span>
               </Link>
-              <Link
-                href='#'
-                className='text-gray-300 hover:text-foreground'
-                prefetch={false}
-              >
-                <LinkedinIcon className='h-6 w-6' />
-                <span className='sr-only'>LinkedIn</span>
-              </Link>
             </div>
           </div>
           <div className='grid gap-8 sm:grid-cols-2 lg:grid-cols-2'>
-            <div className='space-y-2'>
-              <h3 className='text-lg font-semibold'>New York</h3>
-              <address className='not-italic text-gray-300'>
-                <div>123 Main St.</div>
-                <div>New York, NY 10001</div>
-                <div>
-                  <a href='#'>+1 (555) 555-5555</a>
-                </div>
-                <div>
-                  <a href='#'>newyork@example.com</a>
-                </div>
-              </address>
-            </div>
-            <div className='space-y-2'>
-              <h3 className='text-lg font-semibold'>Los Angeles</h3>
-              <address className='not-italic text-gray-300'>
-                <div>456 Oak Ave.</div>
-                <div>Los Angeles, CA 90001</div>
-                <div>
-                  <a href='#'>+1 (555) 555-5556</a>
-                </div>
-                <div>
-                  <a href='#'>losangeles@example.com</a>
-                </div>
-              </address>
-            </div>
-            <div className='space-y-2'>
-              <h3 className='text-lg font-semibold'>Chicago</h3>
-              <address className='not-italic text-gray-300'>
-                <div>789 Elm St.</div>
-                <div>Chicago, IL 60601</div>
-                <div>
-                  <a href='#'>+1 (555) 555-5557</a>
-                </div>
-                <div>
-                  <a href='#'>chicago@example.com</a>
-                </div>
-              </address>
-            </div>
-            <div className='space-y-2'>
-              <h3 className='text-lg font-semibold'>London</h3>
-              <address className='not-italic text-gray-300'>
-                <div>321 Oak Rd.</div>
-                <div>London, UK W1J 0AE</div>
-                <div>
-                  <a href='#'>+44 (0) 20 7123 4567</a>
-                </div>
-                <div>
-                  <a href='#'>london@example.com</a>
-                </div>
-              </address>
-            </div>
+            {addresses.map((address, i) => (
+              <div key={i} className='space-y-2'>
+                <h3 className='text-lg font-semibold'>{address.office}</h3>
+                <address className='not-italic text-gray-300'>
+                  <div>{address.address}</div>
+                  <div>
+                    <a href='#'>{address.phone}</a>
+                  </div>
+                  <div>
+                    <a href='#'>{address.email}</a>
+                  </div>
+                </address>
+              </div>
+            ))}
           </div>
         </div>
       </section>

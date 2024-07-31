@@ -17,7 +17,7 @@ export default function Impact() {
               pressing challenges and drive meaningful change.
             </p>
             <Link
-              href='#'
+              href={`/impact`}
               className='inline-flex items-center gap-2 text-primary hover:underline'
               prefetch={false}
             >

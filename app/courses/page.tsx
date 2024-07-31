@@ -1,11 +1,4 @@
 import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card'
-import {
   BriefcaseIcon,
   BuildingIcon,
   ComputerIcon,
@@ -17,8 +10,8 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion'
-import Link from 'next/link'
 import React from 'react'
+import { courses } from './data'
 
 export default function Page() {
   return (
@@ -342,46 +335,24 @@ export default function Page() {
 
           <section className='w-full py-12 md:py-24 lg:py-32 bg-muted'>
             <div className='container grid grid-cols-1 gap-8 px-4 md:grid-cols-2 lg:grid-cols-4 md:px-6 items-baseline'>
-              <div className='flex flex-col justify-center space-y-4'>
-                <BuildingIcon className='w-12 h-12 text-primary' />
-                <h3 className='text-xl font-bold'>Building & Construction</h3>
-                <p className=''>
-                  The department was created in response to increasing demand
-                  for skilled labour for the building and construction industry.
-                  The department offers craft, certificate and diploma in the
-                  following areas:
-                </p>
-              </div>
-              <div className='flex flex-col justify-center space-y-4'>
-                <ConstructionIcon className='w-12 h-12 text-primary' />
-                <h3 className='text-xl font-bold'>Engineering</h3>
-                <p className=''>
-                  The department of engineering offers both artisan, certificate
-                  and diploma courses in:
-                </p>
-              </div>
-              <div className='flex flex-col justify-center space-y-4'>
-                <BriefcaseIcon className='w-12 h-12 text-primary' />
-                <h3 className='text-xl font-bold'>Business</h3>
-                <p className=''>
-                  The SAMTEC Business department aims at providing quality
-                  business and financial training to empower students with
-                  necessary 21st accountancy, business and numeracy skills. The
-                  department offers the following courses:
-                </p>
-              </div>
-              <div className='flex flex-col justify-center space-y-4'>
-                <ComputerIcon className='w-12 h-12 text-primary' />
-                <h3 className='text-xl font-bold'>ICT</h3>
-                <p className=''>
-                  Information and knowledge are crucial assets in the 21st
-                  century, underpinning all economic areas such as banking,
-                  education, health, finance, manufacturing and entertainment.
-                  The SAMTEC ICT department offers training ICT foundations at
-                  Certificate and diploma levels. The department offers the
-                  following courses:
-                </p>
-              </div>
+              {courses.map((course, i) => (
+                <div key={i} className='flex flex-col justify-center space-y-4'>
+                  {course.title === 'Building & Construction' && (
+                    <BuildingIcon className='w-12 h-12 text-primary' />
+                  )}
+                  {course.title === 'Engineering' && (
+                    <ConstructionIcon className='w-12 h-12 text-primary' />
+                  )}
+                  {course.title === 'Business' && (
+                    <BriefcaseIcon className='w-12 h-12 text-primary' />
+                  )}
+                  {course.title === 'ICT' && (
+                    <ComputerIcon className='w-12 h-12 text-primary' />
+                  )}
+                  <h3 className='text-xl font-bold'>{course.title}</h3>
+                  <p className=''>{course.content}</p>
+                </div>
+              ))}
             </div>
           </section>
         </main>

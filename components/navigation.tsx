@@ -13,7 +13,7 @@ export default function Navigation() {
     { name: 'Agribusiness', href: '/#agribusiness' },
     { name: 'Admissions', href: '/#admissions' },
     { name: 'Courses', href: '/#courses' },
-    { name: 'Impact', href: '/#impact' },
+    { name: 'Impact', href: '/impact' },
     { name: 'Blog', href: '/#blog' },
     { name: 'Contact Us', href: '/#contact-us' },
   ]

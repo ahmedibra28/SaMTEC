@@ -40,8 +40,8 @@ export default function Contact() {
                 Get in Touch
               </h2>
               <p className='max-w-[600px] text-gray-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed'>
-                Have a question or want to work together? We'd love to hear from
-                you.
+                Have a question or want to work together? We&apos;d love to hear
+                from you.
               </p>
             </div>
             <div className='flex items-center gap-4'>

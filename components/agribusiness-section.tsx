@@ -16,7 +16,7 @@ export default function Agribusiness() {
               Agribusiness Entrepreneurship Training
             </h2>
             <p className='text-muted-foreground mb-6'>
-              Our university is at the forefront of agribusiness education,
+              Our college is at the forefront of agribusiness education,
               providing students with the knowledge and skills to thrive in this
               dynamic industry. From sustainable farming practices to innovative
               supply chain management, our programs equip students to drive the

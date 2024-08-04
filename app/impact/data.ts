@@ -6,8 +6,7 @@ export const impacts = [
       'Ismail is a 21 year old SaMTEC graduate from Baled Hawa. He hails from a family of six consisting of three boys and three girls',
     image:
       'https://cloud.appwrite.io/v1/storage/buckets/66471275000c7c4c56be/files/664a040d002b83e82d75/view?project=65905182817b88c986bf',
-    content: `
-    Ismail is a 21 year old SaMTEC graduate from Baled Hawa. He hails from a family of six consisting of three boys and three girls. Ismail is the eldest son of aging parents. His journey to Samtec was long and arduous. He dropped out of Mandera Primary School in Kenya due to constant border closures.
+    content: `Ismail is a 21 year old SaMTEC graduate from Baled Hawa. He hails from a family of six consisting of three boys and three girls. Ismail is the eldest son of aging parents. His journey to Samtec was long and arduous. He dropped out of Mandera Primary School in Kenya due to constant border closures.
 
 In 2011, through sponsorship from CeRID, he joined SaMTEC to study for a certificate in electrical installation. Within SaMTEC, Ismael was know as the most hardworking student.  He graduated on December 2013 and currently works with Somali power supply in Dollow Somalia town. In 2015, he was transferred to his home town Baled Hawa but left Somali power company on February 2016 for a course in English at SaMTEC college.
 

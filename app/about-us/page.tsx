@@ -1,4 +1,3 @@
-import BlurImage from '@/components/blur-image'
 import {
   AwardIcon,
   CombineIcon,
@@ -40,10 +39,7 @@ export default function Page() {
                 Our Vision
               </h2>
               <p className='text-muted-foreground'>
-                Our vision is to be the leading provider of innovative solutions
-                that empower our clients to achieve their goals and transform
-                their businesses. We strive to be a trusted partner, delivering
-                exceptional service and driving sustainable growth.
+                Competent, Self-directing and Self-reliant Community
               </p>
             </div>
             <div>
@@ -51,11 +47,8 @@ export default function Page() {
                 Our Mission
               </h2>
               <p className='text-muted-foreground'>
-                Our mission is to create value for our clients, employees, and
-                shareholders by leveraging our expertise, technology, and
-                collaborative approach. We are committed to delivering tailored
-                solutions that address our clients' unique challenges and unlock
-                their full potential.
+                Provision of market-driven vocational, technical, industrial
+                training and business support services
               </p>
             </div>
           </div>
@@ -70,63 +63,69 @@ export default function Page() {
             <div className='bg-background p-6 rounded-lg shadow-md'>
               <div className='flex items-center mb-4'>
                 <InfinityIcon className='h-8 w-8 text-primary mr-4' />
-                <h3 className='text-xl font-bold'>Integrity</h3>
+                <h3 className='text-xl font-bold'>Sense of Ownership</h3>
               </div>
               <p className='text-muted-foreground'>
-                We are committed to the highest ethical standards, acting with
-                honesty and transparency in all our dealings.
+                We’re proactive, driven, accountable, reliable, and resilient.
+                We take full responsibility for our actions and goes the extra
+                mile to ensure the work we’re doing is meaningful and helpful to
+                all stakeholders.
               </p>
             </div>
             <div className='bg-background p-6 rounded-lg shadow-md'>
               <div className='flex items-center mb-4'>
                 <InfoIcon className='h-8 w-8 text-primary mr-4' />
-                <h3 className='text-xl font-bold'>Innovation</h3>
+                <h3 className='text-xl font-bold'>Accountability</h3>
               </div>
               <p className='text-muted-foreground'>
-                We embrace a culture of creativity and continuous improvement,
-                constantly seeking new ways to deliver value to our clients.
+                We endeavor to act in a transparent, unambiguous, predictable
+                and understandable manner in our undertakings.
               </p>
             </div>
             <div className='bg-background p-6 rounded-lg shadow-md'>
               <div className='flex items-center mb-4'>
                 <CombineIcon className='h-8 w-8 text-primary mr-4' />
-                <h3 className='text-xl font-bold'>Collaboration</h3>
+                <h3 className='text-xl font-bold'>Modest</h3>
               </div>
               <p className='text-muted-foreground'>
-                We believe in the power of teamwork and collaboration, working
-                closely with our clients and partners to achieve shared goals.
+                We uphold integrity, are honest and impartial at all times as we
+                relate with our colleagues, customers and all stakeholders. We
+                deliver our services in a manner which is fair and free of
+                discrimination or preferential treatment.
               </p>
             </div>
             <div className='bg-background p-6 rounded-lg shadow-md'>
               <div className='flex items-center mb-4'>
                 <AwardIcon className='h-8 w-8 text-primary mr-4' />
-                <h3 className='text-xl font-bold'>Excellence</h3>
+                <h3 className='text-xl font-bold'>Trustworthy</h3>
               </div>
               <p className='text-muted-foreground'>
-                We strive for excellence in everything we do, delivering
-                high-quality solutions and exceptional customer service.
+                We uphold integrity, are honest and impartial at all times as we
+                relate with our colleagues, customers and all stakeholders. We
+                deliver our services in a manner which is fair and free of
+                discrimination or preferential treatment.
               </p>
             </div>
             <div className='bg-background p-6 rounded-lg shadow-md'>
               <div className='flex items-center mb-4'>
                 <RecycleIcon className='h-8 w-8 text-primary mr-4' />
-                <h3 className='text-xl font-bold'>Sustainability</h3>
+                <h3 className='text-xl font-bold'>Equity</h3>
               </div>
               <p className='text-muted-foreground'>
-                We are committed to sustainable practices that minimize our
-                environmental impact and contribute to the long-term well-being
-                of our communities.
+                We value creating an atmosphere where everyone feels
+                appreciated, accepted, and supported so they can lead to the
+                best of their potentials and abilities.
               </p>
             </div>
             <div className='bg-background p-6 rounded-lg shadow-md'>
               <div className='flex items-center mb-4'>
                 <DiffIcon className='h-8 w-8 text-primary mr-4' />
-                <h3 className='text-xl font-bold'>Diversity</h3>
+                <h3 className='text-xl font-bold'>Creativity</h3>
               </div>
               <p className='text-muted-foreground'>
-                We celebrate diversity and inclusion, fostering an environment
-                where everyone can thrive and contribute their unique
-                perspectives.
+                We promote accessibility and affordability, seek new and more
+                effective approaches to education, while exercising creativity
+                as we chart inventive paths into the future.
               </p>
             </div>
           </div>

@@ -42,7 +42,7 @@ export default function Page() {
                       {impact.description}
                     </p>
                     <Link
-                      href={`/impact/${impact.slug}`}
+                      href={`/details/${impact.slug}?source=impact`}
                       className='inline-flex items-center gap-2 text-primary hover:underline'
                       prefetch={false}
                     >

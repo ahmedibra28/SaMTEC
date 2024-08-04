@@ -18,8 +18,8 @@ export default function Admissions() {
           <div>
             <h2 className='text-3xl md:text-4xl font-bold mb-4'>Admissions</h2>
             <p className='text-muted-foreground mb-6'>
-              Joining our university is an exciting journey. Our admissions team
-              is dedicated to guiding you through the process and ensuring a
+              Joining our college is an exciting journey. Our admissions team is
+              dedicated to guiding you through the process and ensuring a
               seamless transition. Explore our programs, learn about the
               application requirements, and discover the resources available to
               support your academic success.

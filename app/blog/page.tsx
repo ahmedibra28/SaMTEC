@@ -42,7 +42,7 @@ export default function Page() {
                       {blog.description}
                     </p>
                     <Link
-                      href={`/blog/${blog.slug}`}
+                      href={`/details/${blog.slug}`}
                       className='inline-flex items-center gap-2 text-primary hover:underline'
                       prefetch={false}
                     >

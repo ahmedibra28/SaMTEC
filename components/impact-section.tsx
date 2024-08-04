@@ -11,7 +11,7 @@ export default function Impact() {
           <div>
             <h2 className='text-3xl md:text-4xl font-bold mb-4'>Our Impact</h2>
             <p className='text-muted-foreground mb-6'>
-              At our university, we are committed to making a positive impact on
+              At our college, we are committed to making a positive impact on
               our local and global communities. Through our research, community
               engagement, and sustainability initiatives, we strive to address
               pressing challenges and drive meaningful change.

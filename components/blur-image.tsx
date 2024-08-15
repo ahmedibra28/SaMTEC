@@ -34,6 +34,7 @@ const BlurImage: React.FC<BlurImageProps> = ({
   const [isLoading, setIsLoading] = React.useState(true)
   return (
     <Image
+      unoptimized
       fill={fill}
       priority={priority}
       src={src}

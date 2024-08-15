@@ -1,15 +1,15 @@
 import {
   AwardIcon,
   CombineIcon,
-  ComputerIcon,
+  // ComputerIcon,
   DiffIcon,
-  GroupIcon,
+  // GroupIcon,
   InfinityIcon,
   InfoIcon,
   RecycleIcon,
-  ScalingIcon,
-  ServerIcon,
-  StarIcon,
+  // ScalingIcon,
+  // ServerIcon,
+  // StarIcon,
 } from 'lucide-react'
 
 export default function Page() {
@@ -131,7 +131,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section className='py-16 md:py-24 bg-background'>
+      {/* <section className='py-16 md:py-24 bg-background'>
         <div className='container mx-auto px-4 md:px-6'>
           <h2 className='text-3xl md:text-4xl font-bold mb-8 text-center'>
             Our Strategic Focus Areas
@@ -205,7 +205,7 @@ export default function Page() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }

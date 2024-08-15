@@ -5,7 +5,7 @@ export const posts = [
     description:
       'The SaMTEC fraternity based at Beled Hawa, Gedo region mobilized resources in order to combat the life-threatening drought...',
     image:
-      'https://cloud.appwrite.io/v1/storage/buckets/66471275000c7c4c56be/files/664a040d002b83e82d75/view?project=65905182817b88c986bf',
+      'https://samtec-dims.s3.us-west-002.backblazeb2.com/others/carpentry_training1.jpg',
     content: `The SaMTEC fraternity based at Beled Hawa, Gedo region mobilized resources in order to combat the life-threatening drought that affects the people of the district, particularly the outskirt of the town like Toosile, Sanka Dudunta, Qaniyale, and Rental.
 
 The SaMTEC management held a briefing for the staff on Wednesday 8th March, 2017. In the same meeting, the tutors raised the issue of drought and how it is affecting the nomads in the surrounding area of Beled Hawa and its environment. Thereafter the tutors unanimously agreed to mobilize resources from within; tutors, management, students, guards, and office attendants to alleviate the suffering of people under this natural phenomenon.\
@@ -27,8 +27,7 @@ On 17Th March the committee dispatched the food commodities and three water booz
     slug: 'business-development-unit',
     description:
       'SaMTEC focuses on Incremental Market-Driven Skills to empower students to perform better in the industry and create...',
-    image:
-      'https://cloud.appwrite.io/v1/storage/buckets/66471275000c7c4c56be/files/664a040d002b83e82d75/view?project=65905182817b88c986bf',
+    image: 'https://samtec-dims.s3.us-west-002.backblazeb2.com/others/3-1.jpg',
     content: `SaMTEC focuses on Incremental Market-Driven Skills to empower students to perform better in the industry and create employment for themselves and others. Over the years, SaMTEC has invested knowledge and skills that empower its alumni to compete effectively in the job market.
 
 A case in point is the Business Development Unit which boasts of over 80 percent employment rate among the students who completed their studies between 2013 and 2016.\
@@ -44,7 +43,7 @@ Since its inception in place in 2009, Sayid Mohamed technical education college 
     description:
       'SAMTEC, the Sayid Mohamed Technical Education College, is named after one of the Somalis freedom fighters called...',
     image:
-      'https://cloud.appwrite.io/v1/storage/buckets/66471275000c7c4c56be/files/664a040d002b83e82d75/view?project=65905182817b88c986bf',
+      'https://samtec-dims.s3.us-west-002.backblazeb2.com/others/samtec-1.jpg',
     content: `SAMTEC, the Sayid Mohamed Technical Education College, is named after one of the Somalis freedom fighters called "Sayid Mohamed Abdulle Hassan". The centre is located in Belet-Hawa Town, Gedo region in Somalia.
 
 ### Vision

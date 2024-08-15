@@ -26,9 +26,9 @@ export default function Impact() {
             </Link>
           </div>
           <BlurImage
-            src='https://cloud.appwrite.io/v1/storage/buckets/66471275000c7c4c56be/files/664a040d002b83e82d75/view?project=65905182817b88c986bf'
-            alt='Curriculum'
-            className='mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:aspect-auto'
+            src='/impact.jpeg'
+            alt='impact'
+            className='mx-auto aspect-square overflow-hidden rounded-xl object-cover sm:w-full lg:aspect-square'
             height={600}
             width={400}
           />

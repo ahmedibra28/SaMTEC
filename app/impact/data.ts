@@ -5,7 +5,7 @@ export const impacts = [
     description:
       'Ismail is a 21 year old SaMTEC graduate from Baled Hawa. He hails from a family of six consisting of three boys and three girls',
     image:
-      'https://cloud.appwrite.io/v1/storage/buckets/66471275000c7c4c56be/files/664a040d002b83e82d75/view?project=65905182817b88c986bf',
+      'https://samtec-dims.s3.us-west-002.backblazeb2.com/others/ismail.jpg',
     content: `Ismail is a 21 year old SaMTEC graduate from Baled Hawa. He hails from a family of six consisting of three boys and three girls. Ismail is the eldest son of aging parents. His journey to Samtec was long and arduous. He dropped out of Mandera Primary School in Kenya due to constant border closures.
 
 In 2011, through sponsorship from CeRID, he joined SaMTEC to study for a certificate in electrical installation. Within SaMTEC, Ismael was know as the most hardworking student.  He graduated on December 2013 and currently works with Somali power supply in Dollow Somalia town. In 2015, he was transferred to his home town Baled Hawa but left Somali power company on February 2016 for a course in English at SaMTEC college.
@@ -20,7 +20,7 @@ The SaMTEC family is proud of Ismael and his success shows that with hardwork, i
     description:
       'Hafsa Ahmed Garane is the first born of a family of eleven. She is the daughter of Ahmed Garane and Fatuma Diriye.',
     image:
-      'https://cloud.appwrite.io/v1/storage/buckets/66471275000c7c4c56be/files/664a040d002b83e82d75/view?project=65905182817b88c986bf',
+      'https://f002.backblazeb2.com/file/SaMTEC-DIMS/others/hafsa-e1573211441907.jpg',
     content: `
    Hafsa Ahmed Garane is the first born of a family of eleven. She is the daughter of Ahmed Garane and Fatuma Diriye. Hafsa was orphaned at the tender age of nineteen years and soon become the family breadwinner. She has four sisters and six brothers.
 
@@ -36,7 +36,7 @@ Hafsa wants to expand her business and train other young girls. She is saving mo
     description:
       'Shamsa Adan is a 14-year-old girl from Luuq primary school. She is the third born in a family of seven household members',
     image:
-      'https://cloud.appwrite.io/v1/storage/buckets/66471275000c7c4c56be/files/664a040d002b83e82d75/view?project=65905182817b88c986bf',
+      'https://samtec-dims.s3.us-west-002.backblazeb2.com/others/shamsa.jpg',
     content: `
    Shamsa Adan is a 14-year-old girl from Luuq primary school. She is the third born in a family of seven household members. She resides in Akaro area near Luuq center. She has been studying in the school for the last six years and she is planning to finish her studies at the same if all goes to plan.
 

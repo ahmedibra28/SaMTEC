@@ -9,7 +9,7 @@ export default function Curriculum() {
       <div className='container px-4 md:px-6 lg:px-8'>
         <div className='grid md:grid-cols-2 gap-8 items-center'>
           <BlurImage
-            src='https://cloud.appwrite.io/v1/storage/buckets/66471275000c7c4c56be/files/664a040d002b83e82d75/view?project=65905182817b88c986bf'
+            src='https://www.banq.qc.ca/sites/default/files/styles/profile_mobile/public/2022-10/Books%20in%20Print%20-%20global%20edition_0.jpg?h=44669675&itok=OWH-eLwC'
             alt='Curriculum'
             className='mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:aspect-auto'
             height={600}

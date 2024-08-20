@@ -8,7 +8,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'SaMTEC',
-  description: 'Sayid Mohamed Education College',
+  description:
+    'Sayid Mohamed Technical Education College (SaMTEC) is the largest vocational education center in Jubaland State and one of the best in the whole of Somalia',
 }
 
 export default function RootLayout({

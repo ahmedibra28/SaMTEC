@@ -34,9 +34,9 @@ export default async function HeroSection() {
               </h1>
               <Markdown className='prose mt-8 max-w-[600px] text-gray-300 dark:text-gray-400 md:text-xl'>
                 {/* {heroData?.content} */}
-                Sayid Mohamed Technical Education College (SaMTEC) is the only
-                vocational education center in Gedo region and one of the best
-                in the whole of Somalia.
+                Sayid Mohamed Technical Education College (SaMTEC) is the
+                largest vocational education center in Jubaland State and one of
+                the best in the whole of Somalia.
               </Markdown>
             </div>
             <div className='flex flex-col gap-2 min-[400px]:flex-row'>

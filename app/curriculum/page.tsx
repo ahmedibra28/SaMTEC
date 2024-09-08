@@ -51,7 +51,7 @@ export default function Page() {
           </div>
           <div className='overflow-hidden rounded-lg bg-background'>
             <BlurImage
-              src='/curriculum.png'
+              src='/curriculum.jpg'
               alt='Curriculum'
               className='aspect-video w-full object-contain'
               width={1280}

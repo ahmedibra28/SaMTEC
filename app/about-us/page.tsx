@@ -28,6 +28,11 @@ export default function Page() {
             <p className='text-lg md:text-xl'>
               Discover our vision, mission, and values.
             </p>
+            <p className='text-lg md:text-xl max-w-2xl'>
+              Sayid Mohamed Technical Education College (SaMTEC) is the largest
+              vocational education center in Jubaland State and one of the best
+              in the whole of Somalia.
+            </p>
           </div>
         </div>
       </section>
@@ -35,17 +40,13 @@ export default function Page() {
         <div className='container mx-auto px-4 md:px-6'>
           <div className='grid md:grid-cols-2 gap-8'>
             <div>
-              <h2 className='text-3xl md:text-4xl font-bold mb-4'>
-                Our Vision
-              </h2>
+              <h2 className='text-3xl md:text-4xl font-bold mb-4'>Vision</h2>
               <p className='text-muted-foreground'>
                 Competent, Self-directing and Self-reliant Community
               </p>
             </div>
             <div>
-              <h2 className='text-3xl md:text-4xl font-bold mb-4'>
-                Our Mission
-              </h2>
+              <h2 className='text-3xl md:text-4xl font-bold mb-4'>Mission</h2>
               <p className='text-muted-foreground'>
                 Provision of market-driven vocational, technical, industrial
                 training and business support services

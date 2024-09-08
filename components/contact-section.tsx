@@ -25,8 +25,8 @@ export default function Contact() {
     {
       office: 'MOGADISHU OFFICE',
       address:
-        'Apartment 7, Third Floor, Mumin House, Madina Gate Street, Mogadishu, Somalia',
-      phone: '+252 (1) 85 8352',
+        'Apartment 5, Third Floor, Jayga Road, Behind Ali Jimale Masjid, Mogadishu, Somalia',
+      phone: '+252 (1) 83 9028',
       email: 'info@cerid.so',
     },
   ]

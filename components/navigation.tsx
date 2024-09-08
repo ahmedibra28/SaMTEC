@@ -16,9 +16,10 @@ export default function Navigation() {
     { name: 'Impact', href: '/impact' },
     { name: 'Blog', href: '/#blog' },
     { name: 'Contact Us', href: '/#contact-us' },
+    { name: 'Login', href: 'https://dims.samtec.so' },
   ]
   return (
-    <header className='bg-white shadow text-white-foreground py-4 px-6 md:px-8 lg:px-10 flex items-center justify-between'>
+    <header className='bg-white sticky top-0 z-50 shadow text-white-foreground py-4 px-6 md:px-8 lg:px-10 flex items-center justify-between'>
       <Link className='flex items-center gap-2' href='/#home'>
         <Avatar>
           <AvatarImage src='/logo.png' />

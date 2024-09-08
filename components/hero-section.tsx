@@ -17,14 +17,11 @@ export default async function HeroSection() {
     'https://cloud.appwrite.io/v1/storage/buckets/66471275000c7c4c56be/files/664a094c002b118177c2/view?project=65905182817b88c986bf',
     'https://cloud.appwrite.io/v1/storage/buckets/66471275000c7c4c56be/files/664a0d550021665762db/view?project=65905182817b88c986bf',
     'https://cloud.appwrite.io/v1/storage/buckets/66471275000c7c4c56be/files/664a0d4e001d49918ba0/view?project=65905182817b88c986bf',
-    'https://cloud.appwrite.io/v1/storage/buckets/66471275000c7c4c56be/files/664a0e20001dd3886a07/view?project=65905182817b88c986bf',
+    // 'https://cloud.appwrite.io/v1/storage/buckets/66471275000c7c4c56be/files/664a0e20001dd3886a07/view?project=65905182817b88c986bf',
   ]
 
   return (
-    <section
-      className='w-full py-12 md:py-24 lg:py-32 xl:py-40 bg-brand text-white'
-      id='home'
-    >
+    <section className='w-full py-12 bg-brand text-white' id='home'>
       <div className='container px-4 md:px-6 w-[95%]'>
         <div className='grid gap-6 lg:grid-cols-[1fr_350px] lg:gap-12 xl:grid-cols-[1fr_600px]'>
           <div className='flex flex-col justify-center space-y-6'>

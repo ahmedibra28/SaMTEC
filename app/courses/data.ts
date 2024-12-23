@@ -1,30 +1,30 @@
 export const courses = [
   {
-    title: 'Building & Construction',
-    slug: 'building-construction',
+    title: 'Electric and Electronic',
+    slug: 'electric-electronic',
     description:
-      'The department was created in response to increasing demand for skilled labour...',
-    content: `The department was created in response to increasing demand for skilled labour for the building and construction industry. The department offers craft, certificate and diploma in the following areas`,
+      'This program aims to equip students with the knowledge, skills, and practical...',
+    content: `This program aims to equip students with the knowledge, skills, and practical abilities to excel in the rapidly evolving field of Electrical and Electronic Engineering`,
   },
   {
-    title: 'Engineering',
-    slug: 'engineering',
+    title: 'Automotive Electrical wiring',
+    slug: 'automotive-electrical-wiring',
     description:
-      'The department of engineering offers both artisan, certificate and diploma...',
-    content: `The department of engineering offers both artisan, certificate and diploma courses in`,
+      'This course is designed to equip learners with the knowledge and practical...',
+    content: `This course is designed to equip learners with the knowledge and practical skills necessary to diagnose, repair, and maintain the electrical systems of modern automobiles`,
   },
   {
-    title: 'Business',
-    slug: 'business',
+    title: 'Makeup Artistry',
+    slug: 'makeup-artistry',
     description:
-      'The SAMTEC Business department aims at providing quality business and...',
-    content: `The SAMTEC Business department aims at providing quality business and financial training to empower students with necessary 21st accountancy, business and numeracy skills. The department offers the following courses`,
+      'The growing demand for professional makeup artists in the local market...',
+    content: `The growing demand for professional makeup artists in the local market. occasions like weddings, festivals, photoshoots, film productions, and the increasing interest in personal grooming and self-expression`,
   },
   {
-    title: 'ICT',
-    slug: 'ict',
+    title: 'Catering and Hospitality',
+    slug: 'catering-hospitality',
     description:
-      'Information and knowledge are crucial assets in the 21st century, underpinning...',
-    content: `Information and knowledge are crucial assets in the 21st century, underpinning all economic areas such as banking, education, health, finance, manufacturing and entertainment. The SAMTEC ICT department offers training ICT foundations at Certificate and diploma levels. The department offers the following courses`,
+      'This Catering and Hospitality course is designed to equip learners with the practical...',
+    content: `This Catering and Hospitality course is designed to equip learners with the practical skills and theoretical knowledge necessary to excel in the vibrant and dynamic hospitality industry`,
   },
 ]

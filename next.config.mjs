@@ -13,6 +13,10 @@ const nextConfig = {
         hostname: 'samtec-dims.s3.us-west-002.backblazeb2.com',
       },
       { protocol: 'https', hostname: 'f002.backblazeb2.com' },
+      {
+        protocol: 'https',
+        hostname: 'pub-8e11b6773dc340e88796e60b90f66ad5.r2.dev',
+      },
     ],
   },
 }

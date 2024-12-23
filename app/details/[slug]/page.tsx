@@ -1,17 +1,23 @@
 'use client'
 
-import React from 'react'
+import React, { use } from 'react';
 import { useSearchParams } from 'next/navigation'
 import { posts } from '@/app/blog/data'
 import { impacts } from '@/app/impact/data'
 import BlurImage from '@/components/blur-image'
 import Markdown from 'react-markdown'
 
-export default function Page({
-  params: { slug },
-}: {
-  params: { slug: string }
-}) {
+export default function Page(
+  props: {
+    params: Promise<{ slug: string }>
+  }
+) {
+  const params = use(props.params);
+
+  const {
+    slug
+  } = params;
+
   const searchParams = useSearchParams()
 
   const source = searchParams.get('source')

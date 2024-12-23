@@ -11,6 +11,16 @@ export default async function HeroSection() {
   const heroData = hero?.documents?.[0]
 
   const images = [
+    'https://pub-8e11b6773dc340e88796e60b90f66ad5.r2.dev/1.JPG',
+    'https://pub-8e11b6773dc340e88796e60b90f66ad5.r2.dev/2.JPG',
+    'https://pub-8e11b6773dc340e88796e60b90f66ad5.r2.dev/3.JPG',
+    'https://pub-8e11b6773dc340e88796e60b90f66ad5.r2.dev/4.JPG',
+    'https://pub-8e11b6773dc340e88796e60b90f66ad5.r2.dev/5.jpg',
+    'https://pub-8e11b6773dc340e88796e60b90f66ad5.r2.dev/6.jpg',
+    'https://pub-8e11b6773dc340e88796e60b90f66ad5.r2.dev/7.jpg',
+    'https://pub-8e11b6773dc340e88796e60b90f66ad5.r2.dev/8.jpg',
+    'https://pub-8e11b6773dc340e88796e60b90f66ad5.r2.dev/9.jpg',
+    'https://pub-8e11b6773dc340e88796e60b90f66ad5.r2.dev/10.jpg',
     'https://cloud.appwrite.io/v1/storage/buckets/66471275000c7c4c56be/files/664a040d002b83e82d75/view?project=65905182817b88c986bf',
     'https://cloud.appwrite.io/v1/storage/buckets/66471275000c7c4c56be/files/664a05b50001c872bed8/view?project=65905182817b88c986bf',
     'https://cloud.appwrite.io/v1/storage/buckets/66471275000c7c4c56be/files/664a06ee000ae0bb09df/view?project=65905182817b88c986bf',
@@ -21,7 +31,7 @@ export default async function HeroSection() {
   ]
 
   return (
-    <section className='w-full py-12 bg-brand text-white' id='home'>
+    <div className='w-full py-12 bg-brand text-white' id='home'>
       <div className='container px-4 md:px-6 w-[95%]'>
         <div className='grid gap-6 lg:grid-cols-[1fr_350px] lg:gap-12 xl:grid-cols-[1fr_600px]'>
           <div className='flex flex-col justify-center space-y-6'>
@@ -47,6 +57,6 @@ export default async function HeroSection() {
           <HeroCarousel images={images} />
         </div>
       </div>
-    </section>
+    </div>
   )
 }

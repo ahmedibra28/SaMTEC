@@ -2,6 +2,7 @@ import { ArrowRightIcon } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
 import BlurImage from '@/components/blur-image'
+import { Video } from '@/components/video'
 
 export default function Impact() {
   return (
@@ -26,12 +27,18 @@ export default function Impact() {
             </Link>
           </div>
           <BlurImage
-            src='/impact.jpeg'
+            src='https://pub-8e11b6773dc340e88796e60b90f66ad5.r2.dev/7.jpg'
             alt='impact'
             className='mx-auto aspect-square overflow-hidden rounded-xl object-cover sm:w-full lg:aspect-square'
             height={600}
             width={400}
           />
+        </div>
+
+        <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8 mt-12'>
+          <Video videoid='74RkwPvSjtQ' />
+          <Video videoid='BO5-3OEjQyw' />
+          <Video videoid='LmABByh5Nv0' />
         </div>
       </div>
     </section>

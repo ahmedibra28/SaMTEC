@@ -11,6 +11,8 @@ export default async function HeroSection() {
   const heroData = hero?.documents?.[0]
 
   const images = [
+    'https://pub-8e11b6773dc340e88796e60b90f66ad5.r2.dev/20.jpeg',
+    'https://pub-8e11b6773dc340e88796e60b90f66ad5.r2.dev/21.jpeg',
     'https://pub-8e11b6773dc340e88796e60b90f66ad5.r2.dev/1.JPG',
     'https://pub-8e11b6773dc340e88796e60b90f66ad5.r2.dev/2.JPG',
     'https://pub-8e11b6773dc340e88796e60b90f66ad5.r2.dev/3.JPG',
